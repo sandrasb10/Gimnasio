@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="estiloformulario.css">   
+</head>
+<body>
+    <h1> Formulario de información</h1>
+    <fieldset>
+    <legend>Sus Datos</legend>
+    <p>
+    <label for="nombre">Nombre y apellidos: </label>
+    <input id="nombre" type="text" maxlength="50"
+    name="nombre">
+    </p>
+    <p>
+    <label for="contraseña">Contraseña: </label>
+    <input type="password" maxlength="8">
+  
+    </p>
+    <p>
+        <label for"Usuario">Usuario:</label>
+        <input type="text" maxlength="10"
+        value="anonimo" disabled>
+    
+
+    </p>
+    
+    <p>
+        <label for="Nivel">Nivel:</label>
+        <p>
+            <p>
+                <input type="radio" value="P"> 
+                <label for="Profesional">Profesional</label> 
+            </p>
+            <p>
+                <input type="radio" value="A"
+               id="Avanzado" checked>
+                <label for="Avanzado">Avanzado</label> 
+               
+        </p>
+        <p>
+            <input type="radio" value="P">
+            <label for="Principiante">Principiante</label> 
+        </p>
+        
+    </fieldset>
+<p>
+
+</p>
+     
+            <p>
+                <label for="nacionalidad">Nacionalidad</label> 
+                <select name="nacionalidad">
+                    <option value="España">España </option>
+                    <option value="Francia">Francia </option>
+                    <option value="Portugal"> Portugal</option>
+                    <option value="Berlin"> Berlín</option>
+                    <option value="Londres"> Londres</option>
+                    <option value="Alemania"> Alemania</option>
+                </select>
+            <p>
+                Descripción:
+			<textarea name="area"></textarea> 
+			</p>
+    <p>
+    <input type="checkbox" value="deseo"
+    id="Deseo" checked>
+    <laber for="Deseo"> Deseo recibir información sobre novedades y ofertas</laber>
+</p>
+<p>
+    <input type="checkbox" value="deseo"
+    id="Deseo">
+    <laber for="Declaro"> Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</laber>
+
+</p>
+<p>
+    <label for="nombre">Adjuntar foto: </label>
+    <input type="file" name="nombre" id="foto"
+</p>
+
+   
+    <p>
+       <p>
+
+       </p> 
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar datos"
+    </p>
+
+
+        </head>
+</body>
+</html>

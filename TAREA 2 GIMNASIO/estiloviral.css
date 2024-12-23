@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Caveat:wght@400..700&family=Pacifico&display=swap');
+
+h1 {color:#D2691E;
+    font-size: 50px;
+    font-family: "Pacifico", serif;
+    text-align: center;
+    
+  }
+
+  h2 {
+    color:#00008B;
+    font-size: 30px;
+    font-family: "Caveat", serif;
+  }
+  h3 {
+    color:#008B8B;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a 
+    a link {
+        
+        color:blue;
+    }
+    a:visited {
+        color: grey;
+        
+    }
+    a:hover {
+        font-weight: bold;
+        color:red
+        
+    }
+
+    a:active {
+        color: green;
+  }
+
+    table,td,th {
+        border:2px solid brown;
+        border-collapse: collapse;
+        background-color: antiquewhite;
+        vertical-align: center;
+        width: 33%;margin:auto
+    }
+    body {background-image: url("gimnasio.jpg") ;
+        background-repeat: no-repeat ;
+        background-position: center center;
+        background-attachment: scroll;
+        background-size: 100% 100%;
+    }
+    
+  
